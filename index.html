@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marianas Grown | Island-rooted apparel and music</title>
+    <meta
+      name="description"
+      content="Marianas Grown is an island-rooted clothing and music brand. Shop apparel, buy digital releases, and follow new drops."
+    >
+    <meta property="og:title" content="Marianas Grown">
+    <meta property="og:description" content="Island-rooted apparel and music, built for the ones who carry home with them.">
+    <meta property="og:image" content="assets/dededo-boys-cover.jpg">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Main navigation">
+      <a class="brand-mark" href="#top" aria-label="Marianas Grown home">
+        <img class="brand-symbol" src="assets/mg-logo.jpg" alt="">
+        <span>Marianas Grown</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#apparel">Apparel</a>
+        <a href="#music">Music</a>
+        <a href="#about">Story</a>
+      </nav>
+      <a class="nav-action" href="#drop">Shop drop</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/dededo-boys-cover.jpg" alt="Dededo Boys Paseo Nights artwork">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Island-rooted apparel and music</p>
+          <h1 id="hero-title">Marianas Grown</h1>
+          <p class="hero-copy">
+            Authentic clothing, island stories, and music from Guam for people who carry home wherever they go.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#apparel">Shop apparel</a>
+            <a class="button secondary" href="#music">Buy music</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Brand notes">
+        <span>Small-batch drops</span>
+        <span>Digital albums</span>
+        <span>Island-made identity</span>
+        <span>Worldwide shipping ready</span>
+      </section>
+
+      <section class="section split" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">The brand</p>
+          <h2 id="about-title">Made for the culture that raised us.</h2>
+        </div>
+        <p>
+          Marianas Grown blends Chamorro heritage, village pride, island artwork, and independent music into one
+          direct-to-fan home. This site is ready for merch drops, release links, email capture, and GitHub Pages hosting.
+        </p>
+      </section>
+
+      <section class="feature-image" aria-label="Marianas Grown collection artwork">
+        <img src="assets/collection-lineup.jpg" alt="Marianas Grown collection lineup">
+      </section>
+
+      <section class="section" id="apparel" aria-labelledby="apparel-title">
+        <div class="section-heading">
+          <p class="eyebrow">Apparel</p>
+          <h2 id="apparel-title">Marianas Grown catalog</h2>
+          <p>Original island designs, village pride pieces, and early Marianas Grown archive shirts.</p>
+        </div>
+        <div class="product-grid" id="apparel-products" aria-live="polite"></div>
+      </section>
+
+      <section class="section music-band" id="music" aria-labelledby="music-title">
+        <div class="section-heading">
+          <p class="eyebrow">Music</p>
+          <h2 id="music-title">Buy the sound</h2>
+          <p>
+            Add your real checkout links in one config file. Bandcamp is usually the fastest music-sale option;
+            Stripe Payment Links or Gumroad work well for direct digital downloads.
+          </p>
+        </div>
+        <div class="release-grid" id="music-releases" aria-live="polite"></div>
+      </section>
+
+      <section class="section drop-panel" id="drop" aria-labelledby="drop-title">
+        <div>
+          <p class="eyebrow">Next drop</p>
+          <h2 id="drop-title">Get first access.</h2>
+          <p>Connect this form to Mailchimp, ConvertKit, Klaviyo, or a Formspree endpoint before launch.</p>
+        </div>
+        <form class="signup-form" action="https://formspree.io/f/your-form-id" method="post">
+          <label for="email">Email address</label>
+          <div class="form-row">
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <button class="button primary" type="submit">Join list</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> Marianas Grown</span>
+      <div class="footer-links">
+        <a href="mailto:hello@marianasgrown.com">hello@marianasgrown.com</a>
+        <a href="https://instagram.com/marianasgrown/" target="_blank" rel="noopener">@MarianasGrown</a>
+      </div>
+    </footer>
+
+    <script src="site-config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
