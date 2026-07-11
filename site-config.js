@@ -22,10 +22,10 @@ window.MARIANAS_GROWN = {
       checkoutUrl: "https://example.com/replace-with-cap-checkout"
     },
     {
-      name: "Octopus Tee",
-      tag: "Intelligent, unpredictable, lethal",
+      name: "Octopus Performance Hoodie",
+      tag: "Full back print / left chest MG mark",
       price: "Coming soon",
-      image: "assets/octopus-shirt.jpg",
+      image: "assets/octopus-polyester-hoodie-mockup-v2.png",
       checkoutUrl: "https://example.com/replace-with-octopus-checkout"
     },
     {
@@ -57,11 +57,11 @@ window.MARIANAS_GROWN = {
       checkoutUrl: "https://example.com/replace-with-liberation-checkout"
     },
     {
-      name: "Where I'm From Worn Tee",
-      tag: "Original worn sample",
+      name: "Where I'm From Map Tee",
+      tag: "Dededo pride / 300 DPI print artwork",
       price: "Coming soon",
-      image: "assets/where-im-from-worn.jpg",
-      checkoutUrl: "https://example.com/replace-with-worn-sample-checkout"
+      image: "assets/where-im-from-map3-tee-comp.png",
+      checkoutUrl: "https://example.com/replace-with-map-tee-checkout"
     }
   ],
   music: [
